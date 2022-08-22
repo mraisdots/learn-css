@@ -1,13 +1,19 @@
+/* property text styling */
 h1 {
-    font-family: Arial, Verdana, sans-serif;
-    font-size: 100px;
-    font-weight: normal;
-    font-variant: small-caps;
-    font-style: italic;
+    font-size: 150px;
+    color:blueviolet;
+
 }
 
 p {
-    font-family: Georgia, serif;
-    line-height: 50px;
+    text-indent: 100px;
+    text-transform: capitalize;
+    /* jarak antar huruf
+    letter-spacing: 5px; */
+    /* jarak antar kata */
+    word-spacing: 10px;
 
 }
+
+/* Menghilangkan underline di link */
+a {text-decoration: none;}
